@@ -1,0 +1,6 @@
+/home/vboxuser/Desktop/PAOO/tema1/build/CMakeFiles/tema1.dir
+/home/vboxuser/Desktop/PAOO/tema1/build/CMakeFiles/edit_cache.dir
+/home/vboxuser/Desktop/PAOO/tema1/build/CMakeFiles/rebuild_cache.dir
+/home/vboxuser/Desktop/PAOO/tema1/build/src/CMakeFiles/myvector.dir
+/home/vboxuser/Desktop/PAOO/tema1/build/src/CMakeFiles/edit_cache.dir
+/home/vboxuser/Desktop/PAOO/tema1/build/src/CMakeFiles/rebuild_cache.dir

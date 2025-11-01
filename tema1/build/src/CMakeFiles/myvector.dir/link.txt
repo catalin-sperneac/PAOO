@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmyvector.a CMakeFiles/myvector.dir/MyVector.cpp.o
+/usr/bin/ranlib libmyvector.a
