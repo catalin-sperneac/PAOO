@@ -19,4 +19,4 @@ include_directories(include)
 add_executable(${PROJECT_NAME} ${MY_FILES})
 
 #legam biblioteca noastra locala
-target_link_libraries(${PROJECT_NAME} PRIVATE myvector)
+target_link_libraries(${PROJECT_NAME} PRIVATE mymusic)

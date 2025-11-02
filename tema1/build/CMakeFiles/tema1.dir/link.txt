@@ -1,1 +1,1 @@
-/usr/bin/g++ -g CMakeFiles/tema1.dir/main.cpp.o -o tema1  src/libmyvector.a 
+/usr/bin/g++ -g CMakeFiles/tema1.dir/main.cpp.o -o tema1  src/libmymusic.a 

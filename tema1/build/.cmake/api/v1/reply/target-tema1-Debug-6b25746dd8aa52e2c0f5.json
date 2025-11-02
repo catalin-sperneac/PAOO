@@ -78,7 +78,7 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "myvector::@145eef247bfb46b6828c"
+			"id" : "mymusic::@145eef247bfb46b6828c"
 		}
 	],
 	"id" : "tema1::@6890427a1f51a3e7e1df",
@@ -96,7 +96,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "src/libmyvector.a",
+				"fragment" : "src/libmymusic.a",
 				"role" : "libraries"
 			}
 		],

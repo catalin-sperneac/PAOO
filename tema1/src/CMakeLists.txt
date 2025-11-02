@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.5)
-project(myvector)
+project(mymusic)
 
 #definim fisierele bibliotecii
-set(SRC_FILES MyVector.cpp)
+set(SRC_FILES Song.cpp Playlist.cpp)
 
 #cream o biblioteca statica
 add_library(${PROJECT_NAME} STATIC ${SRC_FILES})

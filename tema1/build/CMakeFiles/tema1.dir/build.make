@@ -92,7 +92,7 @@ tema1_EXTERNAL_OBJECTS =
 
 tema1: CMakeFiles/tema1.dir/main.cpp.o
 tema1: CMakeFiles/tema1.dir/build.make
-tema1: src/libmyvector.a
+tema1: src/libmymusic.a
 tema1: CMakeFiles/tema1.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/vboxuser/Desktop/PAOO/tema1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable tema1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tema1.dir/link.txt --verbose=$(VERBOSE)

@@ -1158,6 +1158,42 @@
 			"value" : "TRUE"
 		},
 		{
+			"name" : "mymusic_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/vboxuser/Desktop/PAOO/tema1/build/src"
+		},
+		{
+			"name" : "mymusic_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "mymusic_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/vboxuser/Desktop/PAOO/tema1/src"
+		},
+		{
 			"name" : "myvector_BINARY_DIR",
 			"properties" : 
 			[

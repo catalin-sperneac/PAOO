@@ -7,8 +7,14 @@
 },
 {
   "directory": "/home/vboxuser/Desktop/PAOO/tema1/build/src",
-  "command": "/usr/bin/g++  -I/home/vboxuser/Desktop/PAOO/tema1/include -g -std=c++17 -o CMakeFiles/myvector.dir/MyVector.cpp.o -c /home/vboxuser/Desktop/PAOO/tema1/src/MyVector.cpp",
-  "file": "/home/vboxuser/Desktop/PAOO/tema1/src/MyVector.cpp",
-  "output": "src/CMakeFiles/myvector.dir/MyVector.cpp.o"
+  "command": "/usr/bin/g++  -I/home/vboxuser/Desktop/PAOO/tema1/include -g -std=c++17 -o CMakeFiles/mymusic.dir/Song.cpp.o -c /home/vboxuser/Desktop/PAOO/tema1/src/Song.cpp",
+  "file": "/home/vboxuser/Desktop/PAOO/tema1/src/Song.cpp",
+  "output": "src/CMakeFiles/mymusic.dir/Song.cpp.o"
+},
+{
+  "directory": "/home/vboxuser/Desktop/PAOO/tema1/build/src",
+  "command": "/usr/bin/g++  -I/home/vboxuser/Desktop/PAOO/tema1/include -g -std=c++17 -o CMakeFiles/mymusic.dir/Playlist.cpp.o -c /home/vboxuser/Desktop/PAOO/tema1/src/Playlist.cpp",
+  "file": "/home/vboxuser/Desktop/PAOO/tema1/src/Playlist.cpp",
+  "output": "src/CMakeFiles/mymusic.dir/Playlist.cpp.o"
 }
 ]

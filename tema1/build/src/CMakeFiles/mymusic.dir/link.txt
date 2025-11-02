@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmymusic.a CMakeFiles/mymusic.dir/Song.cpp.o CMakeFiles/mymusic.dir/Playlist.cpp.o
+/usr/bin/ranlib libmymusic.a

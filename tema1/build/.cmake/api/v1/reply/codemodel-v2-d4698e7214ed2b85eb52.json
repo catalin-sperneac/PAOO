@@ -61,7 +61,7 @@
 					[
 						1
 					],
-					"name" : "myvector",
+					"name" : "mymusic",
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
@@ -73,15 +73,15 @@
 			[
 				{
 					"directoryIndex" : 1,
-					"id" : "myvector::@145eef247bfb46b6828c",
-					"jsonFile" : "target-myvector-Debug-5428faf3910b2ac43b90.json",
-					"name" : "myvector",
+					"id" : "mymusic::@145eef247bfb46b6828c",
+					"jsonFile" : "target-mymusic-Debug-fd0c296520a201c4af22.json",
+					"name" : "mymusic",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "tema1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-tema1-Debug-41c2079fc71cfc1d2f71.json",
+					"jsonFile" : "target-tema1-Debug-6b25746dd8aa52e2c0f5.json",
 					"name" : "tema1",
 					"projectIndex" : 0
 				}

@@ -47,5 +47,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/tema1.dir/DependInfo.cmake"
-  "src/CMakeFiles/myvector.dir/DependInfo.cmake"
+  "src/CMakeFiles/mymusic.dir/DependInfo.cmake"
   )

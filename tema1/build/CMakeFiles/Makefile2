@@ -80,7 +80,7 @@ clean: src/clean
 # Directory level rules for directory src
 
 # Recursive "all" directory target.
-src/all: src/CMakeFiles/myvector.dir/all
+src/all: src/CMakeFiles/mymusic.dir/all
 .PHONY : src/all
 
 # Recursive "preinstall" directory target.
@@ -88,22 +88,22 @@ src/preinstall:
 .PHONY : src/preinstall
 
 # Recursive "clean" directory target.
-src/clean: src/CMakeFiles/myvector.dir/clean
+src/clean: src/CMakeFiles/mymusic.dir/clean
 .PHONY : src/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/tema1.dir
 
 # All Build rule for target.
-CMakeFiles/tema1.dir/all: src/CMakeFiles/myvector.dir/all
+CMakeFiles/tema1.dir/all: src/CMakeFiles/mymusic.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tema1.dir/build.make CMakeFiles/tema1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tema1.dir/build.make CMakeFiles/tema1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/PAOO/tema1/build/CMakeFiles --progress-num=3,4 "Built target tema1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/PAOO/tema1/build/CMakeFiles --progress-num=4,5 "Built target tema1"
 .PHONY : CMakeFiles/tema1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tema1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/PAOO/tema1/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/PAOO/tema1/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tema1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/PAOO/tema1/build/CMakeFiles 0
 .PHONY : CMakeFiles/tema1.dir/rule
@@ -118,30 +118,30 @@ CMakeFiles/tema1.dir/clean:
 .PHONY : CMakeFiles/tema1.dir/clean
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/myvector.dir
+# Target rules for target src/CMakeFiles/mymusic.dir
 
 # All Build rule for target.
-src/CMakeFiles/myvector.dir/all:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/myvector.dir/build.make src/CMakeFiles/myvector.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/myvector.dir/build.make src/CMakeFiles/myvector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/PAOO/tema1/build/CMakeFiles --progress-num=1,2 "Built target myvector"
-.PHONY : src/CMakeFiles/myvector.dir/all
+src/CMakeFiles/mymusic.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/mymusic.dir/build.make src/CMakeFiles/mymusic.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/mymusic.dir/build.make src/CMakeFiles/mymusic.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vboxuser/Desktop/PAOO/tema1/build/CMakeFiles --progress-num=1,2,3 "Built target mymusic"
+.PHONY : src/CMakeFiles/mymusic.dir/all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/myvector.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/PAOO/tema1/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/myvector.dir/all
+src/CMakeFiles/mymusic.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/PAOO/tema1/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/mymusic.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/PAOO/tema1/build/CMakeFiles 0
-.PHONY : src/CMakeFiles/myvector.dir/rule
+.PHONY : src/CMakeFiles/mymusic.dir/rule
 
 # Convenience name for target.
-myvector: src/CMakeFiles/myvector.dir/rule
-.PHONY : myvector
+mymusic: src/CMakeFiles/mymusic.dir/rule
+.PHONY : mymusic
 
 # clean rule for target.
-src/CMakeFiles/myvector.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/myvector.dir/build.make src/CMakeFiles/myvector.dir/clean
-.PHONY : src/CMakeFiles/myvector.dir/clean
+src/CMakeFiles/mymusic.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/mymusic.dir/build.make src/CMakeFiles/mymusic.dir/clean
+.PHONY : src/CMakeFiles/mymusic.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -117,42 +117,66 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/CMakeFiles/myvector.dir/rule:
-	cd /home/vboxuser/Desktop/PAOO/tema1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/myvector.dir/rule
-.PHONY : src/CMakeFiles/myvector.dir/rule
+src/CMakeFiles/mymusic.dir/rule:
+	cd /home/vboxuser/Desktop/PAOO/tema1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/mymusic.dir/rule
+.PHONY : src/CMakeFiles/mymusic.dir/rule
 
 # Convenience name for target.
-myvector: src/CMakeFiles/myvector.dir/rule
-.PHONY : myvector
+mymusic: src/CMakeFiles/mymusic.dir/rule
+.PHONY : mymusic
 
 # fast build rule for target.
-myvector/fast:
-	cd /home/vboxuser/Desktop/PAOO/tema1/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myvector.dir/build.make src/CMakeFiles/myvector.dir/build
-.PHONY : myvector/fast
+mymusic/fast:
+	cd /home/vboxuser/Desktop/PAOO/tema1/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mymusic.dir/build.make src/CMakeFiles/mymusic.dir/build
+.PHONY : mymusic/fast
 
-MyVector.o: MyVector.cpp.o
-.PHONY : MyVector.o
+Playlist.o: Playlist.cpp.o
+.PHONY : Playlist.o
 
 # target to build an object file
-MyVector.cpp.o:
-	cd /home/vboxuser/Desktop/PAOO/tema1/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myvector.dir/build.make src/CMakeFiles/myvector.dir/MyVector.cpp.o
-.PHONY : MyVector.cpp.o
+Playlist.cpp.o:
+	cd /home/vboxuser/Desktop/PAOO/tema1/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mymusic.dir/build.make src/CMakeFiles/mymusic.dir/Playlist.cpp.o
+.PHONY : Playlist.cpp.o
 
-MyVector.i: MyVector.cpp.i
-.PHONY : MyVector.i
+Playlist.i: Playlist.cpp.i
+.PHONY : Playlist.i
 
 # target to preprocess a source file
-MyVector.cpp.i:
-	cd /home/vboxuser/Desktop/PAOO/tema1/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myvector.dir/build.make src/CMakeFiles/myvector.dir/MyVector.cpp.i
-.PHONY : MyVector.cpp.i
+Playlist.cpp.i:
+	cd /home/vboxuser/Desktop/PAOO/tema1/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mymusic.dir/build.make src/CMakeFiles/mymusic.dir/Playlist.cpp.i
+.PHONY : Playlist.cpp.i
 
-MyVector.s: MyVector.cpp.s
-.PHONY : MyVector.s
+Playlist.s: Playlist.cpp.s
+.PHONY : Playlist.s
 
 # target to generate assembly for a file
-MyVector.cpp.s:
-	cd /home/vboxuser/Desktop/PAOO/tema1/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myvector.dir/build.make src/CMakeFiles/myvector.dir/MyVector.cpp.s
-.PHONY : MyVector.cpp.s
+Playlist.cpp.s:
+	cd /home/vboxuser/Desktop/PAOO/tema1/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mymusic.dir/build.make src/CMakeFiles/mymusic.dir/Playlist.cpp.s
+.PHONY : Playlist.cpp.s
+
+Song.o: Song.cpp.o
+.PHONY : Song.o
+
+# target to build an object file
+Song.cpp.o:
+	cd /home/vboxuser/Desktop/PAOO/tema1/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mymusic.dir/build.make src/CMakeFiles/mymusic.dir/Song.cpp.o
+.PHONY : Song.cpp.o
+
+Song.i: Song.cpp.i
+.PHONY : Song.i
+
+# target to preprocess a source file
+Song.cpp.i:
+	cd /home/vboxuser/Desktop/PAOO/tema1/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mymusic.dir/build.make src/CMakeFiles/mymusic.dir/Song.cpp.i
+.PHONY : Song.cpp.i
+
+Song.s: Song.cpp.s
+.PHONY : Song.s
+
+# target to generate assembly for a file
+Song.cpp.s:
+	cd /home/vboxuser/Desktop/PAOO/tema1/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mymusic.dir/build.make src/CMakeFiles/mymusic.dir/Song.cpp.s
+.PHONY : Song.cpp.s
 
 # Help Target
 help:
@@ -162,10 +186,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... myvector"
-	@echo "... MyVector.o"
-	@echo "... MyVector.i"
-	@echo "... MyVector.s"
+	@echo "... mymusic"
+	@echo "... Playlist.o"
+	@echo "... Playlist.i"
+	@echo "... Playlist.s"
+	@echo "... Song.o"
+	@echo "... Song.i"
+	@echo "... Song.s"
 .PHONY : help
 
 

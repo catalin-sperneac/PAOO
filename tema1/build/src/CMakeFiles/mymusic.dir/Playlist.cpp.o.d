@@ -1,5 +1,6 @@
-CMakeFiles/tema1.dir/main.cpp.o: \
- /home/vboxuser/Desktop/PAOO/tema1/main.cpp /usr/include/stdc-predef.h \
+src/CMakeFiles/mymusic.dir/Playlist.cpp.o: \
+ /home/vboxuser/Desktop/PAOO/tema1/src/Playlist.cpp \
+ /usr/include/stdc-predef.h \
  /home/vboxuser/Desktop/PAOO/tema1/include/Playlist.h \
  /home/vboxuser/Desktop/PAOO/tema1/include/Song.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \

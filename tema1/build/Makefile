@@ -130,17 +130,17 @@ tema1/fast:
 .PHONY : tema1/fast
 
 #=============================================================================
-# Target rules for targets named myvector
+# Target rules for targets named mymusic
 
 # Build rule for target.
-myvector: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 myvector
-.PHONY : myvector
+mymusic: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mymusic
+.PHONY : mymusic
 
 # fast build rule for target.
-myvector/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/myvector.dir/build.make src/CMakeFiles/myvector.dir/build
-.PHONY : myvector/fast
+mymusic/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/mymusic.dir/build.make src/CMakeFiles/mymusic.dir/build
+.PHONY : mymusic/fast
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -174,7 +174,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... myvector"
+	@echo "... mymusic"
 	@echo "... tema1"
 	@echo "... main.o"
 	@echo "... main.i"
