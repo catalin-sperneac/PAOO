@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/tema2.dir/main.cpp.o CMakeFiles/tema2.dir/src/Playlist.cpp.o CMakeFiles/tema2.dir/src/Song.cpp.o -o tema2 
