@@ -1,8 +1,8 @@
 CMakeFiles/tema2.dir/src/Playlist.cpp.o: \
  /home/vboxuser/Desktop/PAOO/tema2/src/Playlist.cpp \
  /usr/include/stdc-predef.h \
- /home/vboxuser/Desktop/PAOO/tema2/include/Playlist.h \
- /home/vboxuser/Desktop/PAOO/tema2/include/Song.h \
+ /home/vboxuser/Desktop/PAOO/tema2/include/Playlist.hpp \
+ /home/vboxuser/Desktop/PAOO/tema2/include/Song.hpp \
  /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
